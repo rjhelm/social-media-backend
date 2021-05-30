@@ -62,3 +62,9 @@ const ThoughtSchema = new Schema(
 );
 
 const Thought = model('Thought', ThoughtSchema);
+
+ThoughtSchema.vertual('reactionCount').get(function() {
+    return this.reactions.length;
+});
+
+module.exports = Thought;
