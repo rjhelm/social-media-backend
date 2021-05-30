@@ -1,0 +1,24 @@
+{
+  "name": "social-media-backend",
+  "version": "1.0.0",
+  "description": "backend for social media startup using MONBGODB and EXPRESS.JS",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rjhelm/social-media-backend.git"
+  },
+  "author": "Ryan Helm",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rjhelm/social-media-backend/issues"
+  },
+  "homepage": "https://github.com/rjhelm/social-media-backend#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "mongodb": "^3.6.9"
+  }
+}
